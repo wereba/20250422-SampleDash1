@@ -66,14 +66,6 @@ jobs:
         uses: azure/webapps-deploy@v3
         id: deploy-to-webapp
         with:
-          app-name: 'sampledash1'
-          slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B58840C5417544EAB36368197D47DBD9 }}
-      
-      - name: 'Deploy to Azure Web App'
-        uses: azure/webapps-deploy@v3
-        id: deploy-to-webapp
-        with:
           app-name: 'pemapp'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_014B25A122484175A2E23EE5B5DBD35C }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6E0243975135412D97FDE91873D27389 }}
